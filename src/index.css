@@ -10,6 +10,7 @@ ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
+  margin-right: 10px;
 }
 ul.header {
   background-color: ;
