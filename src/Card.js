@@ -2,6 +2,7 @@ import React from 'react';
 import ToggleSwitch from "./ToggleSwitch";
 import { useState } from 'react';
 
+
 import './Card.css'
 
 function Card(props)
@@ -42,9 +43,9 @@ function showDetails(){
       <div className="cards">
         <div className="card">
           <h1>ROI Calculator</h1>
-          <ToggleSwitch label="USD"  />
+          <ToggleSwitch label="USD" />
           <input  className="search" type="text" placeholder =""name="name" />
-          <div class="radio-toolbar radio-toolbar-balance">
+          <div class="balancetool">
             <input type="radio" id="radioBALANCE" name="radioMoney" value="BALANCE" checked />
             <label for="radioBALANCE">USE BALANCE </label>
 
@@ -73,7 +74,7 @@ function showDetails(){
             <label for="radioYear5">Year 5</label> 
 
           </div>
-          <span>  <ToggleSwitch label="   " />  <h2>Enable Accelerated Apy </h2> </span>
+          <span>  <ToggleSwitch label=" " />  <h2>Enable Accelerated Apy </h2> </span>
           <span> Select Tier</span>
           <div class="radio-toolbar">
             <input type="radio" id="radioTier1" name="radioTier11" value="Tier 1" checked />
@@ -92,9 +93,10 @@ function showDetails(){
             <label for="radioTier5">Tier 5</label> 
           </div>
           <p className="Paragraph"> ROI at current rate </p>
-          <input  className="search" type="text" name="name" />
-          <p className="Paragraph"> ~3Cake + 10Don</p>
-
+          <div>
+            <input  className="search" type="text" name="name" />
+            <p className="Paragraph"> ~3Cake + 10Don</p>
+          </div>
           <div className="btnn">
             <button className="lgbutton">Apply</button>
             <button className="lgbutton">Cancel</button>
