@@ -154,7 +154,6 @@ h1, h2, p, ul, li {
 
 .hideShow{
   display: flex;
-  justify-content: end;
   padding: 15px;
   border: #ffffff;
   background-color: #ffffff;
