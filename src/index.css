@@ -1,11 +1,9 @@
-body {
+/* body {
   background-color: #f8fcf7;
   padding: 20px;
   margin: 0px;  
 }
-h1, h2, p, ul, li {
-  font-family: sans-serif;
-}
+
 ul.header li {
   display: inline;
   list-style-type: none;
@@ -19,7 +17,7 @@ ul.header {
 
 
 ul.header li a {
-  /* color: #FFF; */
+  
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
@@ -45,4 +43,4 @@ label.search {
 	height: 80px;
 	border: 1px solid darken(white, 30%);
 	border-radius: 20px 0 0 20px;
-}
+} */

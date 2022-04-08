@@ -37,17 +37,17 @@
     box-sizing: border-box;
   }
   .inner:before {
-    content: "YES";
+    content: "";   
     padding-left: 10px;
     background-color: rgb(251, 232, 22);
     color: #fff;
   }
   .inner:after {
-    content: "NO";
+    content: "";
     padding-right: 10px;
     background-color: #bbb;
     color: #fff;
-    text-align: right;
+    text-align: left;
   }
   .switch {
     display: block;
