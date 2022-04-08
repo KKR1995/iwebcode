@@ -1,0 +1,156 @@
+
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    /* margin:0; */
+    /* background-color:#d2dbdd; */
+  }
+  
+  .heading_style{
+    padding: 30px 0;
+    text-align: center;
+    font-family: "raleway",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight:500;
+    /* color: #868686; */
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .cards{
+    width: 50px;
+    height:50px ;
+    background-color: #fff;
+    border-radius: 30px;
+    
+  }
+  
+  
+  .card {
+    margin: 6%;
+    
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1);
+    background-color: #fff;
+    width: 500px;
+    height:700px ;
+    /* border-radius: 12px; */
+    box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
+    /* float: left; */
+    /* display: flex; */
+    
+    border-radius: 30px;
+  }
+  .card:hover{
+    box-shadow: 10px 23px 20px 7px rgba(184, 12, 12, 0.1);
+    transform: scale(1.05,1.05);
+  }
+  .card_img{
+    width: 300px;
+    height: 250px;
+  }
+  .card_category
+  {
+    font-size: 20px;
+  }
+  
+  /* .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+
+
+  .search {
+    padding: 0 30px;
+      margin:  20px 20px 20px 0px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 450px;
+    height: 60px;
+    border: 1px solid darken(rgb(244, 237, 237), 30%);
+    border-radius: 20px;
+  }
+  .Paragraph
+  {
+      float: right;
+      margin: 0px;
+      
+  }
+  .header1 {
+      background-color: #d2dbdd ;
+      color: black;
+      padding: 10px;
+      border-radius: 50px;
+      margin: 15px;
+      height: 20px;
+      border: 1px solid darken(rgb(244, 237, 237), 30%);
+  }
+
+  .headeryello {
+    background-color: #f6d029 ;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 15px;
+    height: 20px;
+    border: 1px solid darken(rgb(244, 237, 237), 30%);
+}
+  
+
+  .Paragraph
+{
+    
+    margin: 0px;
+}
+.lgbutton
+{
+  display: block;
+  width: 40%;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.btnn {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+}

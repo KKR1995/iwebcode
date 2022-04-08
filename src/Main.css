@@ -1,0 +1,41 @@
+.search {
+	padding: 0 30px;
+    margin: 20px;
+	font-size: 18px;
+	width: 100%;
+	max-width: 1400px;
+	height: 60px;
+	border: 1px solid darken(rgb(244, 237, 237), 30%);
+	border-radius: 20px;
+}
+.Paragraph
+{
+    
+    margin: 10px;
+    
+}
+.header1 {
+    background-color: #d9d9d9 ;
+    color: black;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 20px;
+    height: 30px;
+    border: 1px solid darken(rgb(244, 237, 237), 30%);
+}
+
+
+}
+
+
+
+
+
+  /* <div className="mb-2">
+    <Button variant="primary" size="lg">
+      Large button
+    </Button>{' '}
+    <Button variant="secondary" size="lg">
+      Large button
+    </Button>
+  </div> */
